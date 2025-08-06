@@ -1,0 +1,23 @@
+2025-08-06 11:55:02 INFO  com.urlshortener.service.UrlService - Created custom URL: custom to http://example.com for user user
+2025-08-06 11:55:02 INFO  com.urlshortener.service.UrlService - Shortened URL: http://example.com to nZLYbC
+2025-08-06 11:59:54 INFO  com.urlshortener.service.UrlService - Created custom URL: custom to http://example.com for user user
+2025-08-06 11:59:54 INFO  com.urlshortener.service.UrlService - Shortened URL: http://example.com to qJdji3
+2025-08-06 12:19:51 INFO  com.urlshortener.server.Main - Database initialized
+2025-08-06 12:19:51 INFO  com.urlshortener.server.Main - Server started on port 8000
+2025-08-06 12:20:31 INFO  c.u.handler.StaticFileHandler - Served static file: styles.css
+2025-08-06 12:25:49 INFO  c.u.handler.StaticFileHandler - Served static file: styles.css
+2025-08-06 12:38:52 INFO  com.urlshortener.server.Main - Database initialized
+2025-08-06 12:38:52 INFO  com.urlshortener.server.Main - Server started on port 8000
+2025-08-06 12:38:59 INFO  c.u.handler.StaticFileHandler - Served static file: styles.css
+2025-08-06 12:38:59 INFO  c.u.handler.StaticFileHandler - Served static file: script.js
+2025-08-06 12:39:24 INFO  c.urlshortener.service.UserService - Registered user: aniket@gmail.com
+2025-08-06 12:39:52 INFO  c.urlshortener.service.UserService - User logged in: aniket@gmail.com
+2025-08-06 15:27:31 INFO  com.urlshortener.server.Main - Database initialized
+2025-08-06 15:27:32 INFO  com.urlshortener.server.Main - Server started on port 8000
+2025-08-06 15:29:09 INFO  c.u.handler.StaticFileHandler - Served static file: styles.css
+2025-08-06 15:29:09 INFO  c.u.handler.StaticFileHandler - Served static file: script.js
+2025-08-06 15:30:34 INFO  c.u.handler.StaticFileHandler - Served static file: styles.css
+2025-08-06 15:30:34 INFO  c.u.handler.StaticFileHandler - Served static file: script.js
+2025-08-06 15:30:54 INFO  c.urlshortener.service.UserService - User logged in: aniket@gmail.com
+2025-08-06 15:31:06 INFO  c.u.handler.StaticFileHandler - Served static file: styles.css
+2025-08-06 15:31:06 INFO  c.u.handler.StaticFileHandler - Served static file: script.js
