@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>URL Shortener</h1>
+    <div id="auth-section">
+        <button onclick="showSection('login')">Login</button>
+        <button onclick="showSection('register')">Register</button>
+    </div>
+    <div id="login-section" class="section hidden">
+        <h2>Login</h2>
+        <input type="text" id="login-username" placeholder="Username">
+        <input type="password" id="login-password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+    <div id="register-section" class="section hidden">
+        <h2>Register</h2>
+        <input type="text" id="register-username" placeholder="Username">
+        <input type="password" id="register-password" placeholder="Password">
+        <button onclick="register()">Register</button>
+    </div>
+    <div id="shorten-section" class="section">
+        <h2>Shorten URL</h2>
+        <input type="text" id="long-url" placeholder="Enter long URL">
+        <input type="text" id="custom-url" placeholder="Custom short URL (optional, requires login)" disabled>
+        <button onclick="shortenUrl()">Shorten</button>
+    </div>
+    <div id="result" class="hidden"></div>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
